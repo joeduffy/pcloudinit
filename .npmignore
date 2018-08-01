@@ -1,0 +1,6 @@
+examples/
+images/
+lib/
+.gitmodules
+tsconfig.json
+tslint.json

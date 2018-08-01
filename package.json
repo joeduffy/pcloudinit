@@ -1,0 +1,16 @@
+{
+  "name": "pcloudinit",
+  "version": "0.1.0",
+  "description": "Support for CloudFormation-like cloud-config templates.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "async-file": "^2.0.2",
+    "mustache": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/mustache": "^0.8.31",
+    "@types/node": "^10.5.5"
+  }
+}
