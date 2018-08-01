@@ -118,11 +118,9 @@ const webServer = new aws.ec2.Instance("webServer", {
                     "03_start_application": {
                         command: "/home/ec2-user/start_application > var/log/start_application.log",
                     },
-                    /*
                     "04_cleanup": {
                         command: "rm /tmp/install_application",
                     },
-                     */
                 },
             },
         },
